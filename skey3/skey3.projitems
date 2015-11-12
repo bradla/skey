@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D764B125-289C-4D46-84B8-09E30EC3AAA2}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>skey3</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)skey3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentPage1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)md.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)md5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)otp.cs" />
+  </ItemGroup>
+</Project>
