@@ -11,3 +11,4 @@ Android -
 https://play.google.com/store/apps/details?id=com.skey.skey&hl=en
 
 IOS -
+https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1057848701&mt=8
